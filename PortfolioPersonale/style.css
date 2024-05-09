@@ -1,0 +1,271 @@
+@media only screen and (max-width: 768px) {
+    main {
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+    }
+    .centerOnMobile {
+        text-align: center;
+    }
+    .nav {
+        height: 50px !important;
+        padding-top: 10px !important;
+        border-radius: 0 0 30px 30px !important;
+    }
+    .footer {
+        height: 50px !important;
+        padding-top: 10px !important;
+        border-radius: 30px 30px 0 0 !important;
+    }
+    .titlename {
+        font-size: 16px !important;
+    }
+    .logo {
+        margin-left: 30px !important;
+        width: 30px !important;
+    }
+    .menu-icon {
+        margin-right: 30px !important;
+    }
+    .footername {
+        margin-left: 30px !important;
+    }
+    .bio {
+        margin-top: 120px !important;
+    }
+    .titlesection {
+        font-size: 30px !important;
+    }
+    .bodybio {
+        padding: 8px 8px 8px 10px !important;
+    }
+    .pbio {
+        font-size: 15px !important;
+    }
+    .border {
+        margin-top: 30px !important;
+        margin-left: -10px !important;
+        margin-right: 70px !important;
+    }
+    .menuitem {
+        margin-left: -30px !important;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li {
+    font-family: "Epilogue", sans-serif;
+}
+
+a {
+    display: contents;
+    color: black !important;
+}
+
+.nav {
+    background-color: #ff6250;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    border-radius: 0 0 100px 100px;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.logodiv {
+    display: inline-flex;
+    align-items: center;
+}
+.menu-icon {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.footer {
+    background-color: #ff6250;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    border-radius: 100px 100px 0 0;
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    bottom: 0;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.footer > div {
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+}
+.footer > div > a > img {
+    margin-left: 2px;
+}
+
+.titlename {
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.logo {
+    margin-left: 90px;
+    width: 40px;
+}
+
+.footername {
+    margin-left: 90px;
+}
+
+main {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.bio {
+    margin-top: 170px;
+}
+
+.titlesection {
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+}
+
+.bodybio {
+    border-left: 9px solid #009379;
+    padding: 8px 25% 8px 10px;
+}
+.pbio {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.projectGrid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgPrjectContainer {
+    width: 250px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.imgPrject {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+.mms {
+    border-radius: 500px 500px 0 0;
+    border: 22px solid #f3afa8;
+}
+.cappello {
+    border-radius: 0 100px 0 0;
+    border: 22px solid #f7d684;
+}
+.uovo {
+    border-radius: 0 100px 0 100px;
+    border: 22px solid #009379;
+}
+.label {
+    font-weight: 800;
+    text-align: center;
+}
+
+.contacts > div > a {
+    font-weight: 600;
+    font-size: 18px;
+}
+.contacts > div {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.contacts > div > a > img {
+    margin-right: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+.menu-icon > ul {
+    display: none;
+    font-size: 60%;
+    padding-top: 30px;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ff6250;
+    top: 0;
+    left: 0;
+}
+li:focus {
+    outline: none;
+}
+li:focus ul {
+    display: block;
+}
+li > a {
+    color: white !important;
+}
+
+.menuitem {
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+}
+
+.border {
+    border: 2px solid #f3afa8;
+    margin-top: 55px;
+    margin-left: 50px;
+    margin-right: 130px;
+}
+
+.rettangolo > div > img {
+    height: 100%;
+    width: 100%;
+}
+.rettangolo > div {
+    width: 350px;
+}
+
+.rettangoloverticale {
+    justify-content: space-between;
+}
+.rettangoloverticale > div {
+    width: 400px;
+    margin-bottom: 170px;
+}
+.rettangoloverticale > div > img {
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
